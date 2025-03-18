@@ -60,7 +60,17 @@ import world from "./world.svg";
 import academybackground from "./academybackground.svg";
 import Keys from "./Keys.png";
 import footer from "./footer.svg";
+import i1 from "./i1.png";
+import i2 from "./i2.png";
+import i3 from "./i3.png";
+import i4 from "./i4.png";
+import i5 from "./i5.png";
 export {
+  i5,
+  i4,
+  i3,
+  i2,
+  i1,
   footer,
   Keys,
   academybackground,

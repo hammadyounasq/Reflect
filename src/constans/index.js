@@ -31,6 +31,11 @@ import {
   appicon2,
   appicon3,
   appicon4,
+  i5,
+  i4,
+  i3,
+  i2,
+  i1,
 } from "../assets";
 
 export const navLinks = [
@@ -251,31 +256,31 @@ export const feedback2 = [
     id: "feedback-1",
     content: "Instantly sync your notes across devices",
     title: "Built for speed",
-    img: svg,
+    img: i1,
   },
   {
     id: "feedback-2",
     content: "Form a graph of ideas with backlinked notes",
     title: "Networked notes",
-    img: svg1,
+    img: i2,
   },
   {
     id: "feedback-3",
     content: "Capture ideas on the go, online or offline",
     title: "iOS app",
-    img: svg2,
+    img: i3,
   },
   {
     id: "feedback-4",
     content: "Only you can access your notes",
     title: "End-to-end encryption",
-    img: svg7,
+    img: i4,
   },
   {
     id: "feedback-5",
     content: "Keep track of meetings and agendas",
     title: "Calendar integration",
-    img: svg3,
+    img: i5,
   },
 ];
 

@@ -1,4 +1,3 @@
-import React from "react";
 import styles from "../style";
 import { meetingsbackground, calender } from "../assets";
 
@@ -14,7 +13,6 @@ const Meeting = () => {
           alt="Hero Background"
         />
       </div>
-
       {/* Text in Center */}
       <div className="relative z-10 flex flex-col items-center text-center mt-[200px] sm:mt-[250px] ">
         {/* Badge */}
@@ -23,9 +21,8 @@ const Meeting = () => {
             Meetings
           </p>
         </div>
-
         {/* Heading and Subtext */}
-        <h1 className="font-roboto font-semibold sm:text-[50px] text-[35px] text-gradient1 sm:leading-[60px] leading-[40px] text-center">
+        <h1 className="font-roboto  font-semibold sm:text-[50px] text-[35px] text-gradient1 sm:leading-[60px] leading-[40px] text-center">
           <span className="block">Get more out</span>
           <span className="block">of your meetings</span>
         </h1>

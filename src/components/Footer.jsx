@@ -13,7 +13,6 @@ const Footer = () => {
             Integrations
           </p>
         </div>
-
         <h1 className="font-roboto font-semibold sm:text-[50px] text-[30px] text-gradient1 sm:leading-[60px] leading-[30px] text-center">
           <span className="block text-gradient1">Learn how to take great</span>
           <span className="block text-gradient1">notes at our academy</span>

@@ -23,3 +23,53 @@ const UseReflectCard = ({ content, title, img, index }) => {
 };
 
 export default UseReflectCard;
+// "use client";
+// import { motion } from "framer-motion";
+
+// const UseReflectCard = ({ content, title, img, index }) => {
+//   return (
+//     <motion.div
+//       className="flex flex-col items-center text-center p-4 rounded-[15px] max-w-[300px] mx-auto"
+//       whileHover={{
+//         scale: 1.05,
+//         transition: { duration: 0.3 },
+//       }}
+//     >
+//       <motion.div
+//         initial={{ opacity: 0, scale: 0.8 }}
+//         animate={{ opacity: 1, scale: 1 }}
+//         transition={{ duration: 0.5, delay: 0.2 }}
+//         whileHover={{
+//           rotate: [0, -3, 3, -3, 0],
+//           transition: { duration: 0.5 },
+//         }}
+//       >
+//         <motion.img
+//           src={img}
+//           alt={title}
+//           className="w-[60px] h-[60px] object-contain mb-4"
+//         />
+//       </motion.div>
+
+//       <motion.h4
+//         initial={{ opacity: 0 }}
+//         animate={{ opacity: 1 }}
+//         transition={{ duration: 0.5, delay: 0.3 }}
+//         className="font-medium text-[18px] leading-[24px] text-white mb-2"
+//       >
+//         {title}
+//       </motion.h4>
+
+//       <motion.p
+//         initial={{ opacity: 0 }}
+//         animate={{ opacity: 1 }}
+//         transition={{ duration: 0.5, delay: 0.4 }}
+//         className="font-normal text-[14px] leading-[20px] text-gray-400"
+//       >
+//         {content}
+//       </motion.p>
+//     </motion.div>
+//   );
+// };
+
+// export default UseReflectCard;
