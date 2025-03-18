@@ -58,7 +58,7 @@ import love from "./love.svg";
 import testimonials from "./testimonials.svg";
 import world from "./world.svg";
 import academybackground from "./academybackground.svg";
-import Keys from "./Keys.png";
+import Keys from "./keys.png";
 import footer from "./footer.svg";
 import i1 from "./i1.png";
 import i2 from "./i2.png";
