@@ -39,7 +39,7 @@
 
 // export default FeedbackSection;
 "use client";
-import FeedbackCard from "./FeedbackCard";
+import FeedbackCard from "./feedbackCard";
 import { testimonials } from "../assets";
 import { motion } from "framer-motion";
 
