@@ -1,21 +1,21 @@
-import React from "react";
-
 const UseReflectCard = ({ content, title, img, index }) => {
   const isLarge = index >= 2; // Determines if the card should have larger dimensions
 
   return (
-    <div className="flex flex-col items-center text-center px-6 sm:py-8 py-2 rounded-[15px] max-w-[280px]  ">
+    <div className="flex flex-col items-center text-center px-4 md:px-6 py-4 md:py-6 rounded-[15px] w-full max-w-[280px] mx-auto transition-transform duration-300 hover:scale-105">
       <img
         src={img}
-        className={`object-contain mb-4 ${
-          isLarge ? "w-[100px] h-[50px]" : "w-[40px] h-[40px]"
+        className={`object-contain mb-4 transition-transform duration-300 hover:scale-110 ${
+          isLarge
+            ? "w-[80px] md:w-[100px] h-[40px] md:h-[50px]"
+            : "w-[35px] md:w-[40px] h-[35px] md:h-[40px]"
         }`}
         alt={title}
       />
-      <h4 className="font-medium text-[16px] leading-[24px] text-white mb-2">
+      <h4 className="font-medium text-[15px] md:text-[16px] leading-[1.5] text-white mb-2">
         {title}
       </h4>
-      <p className="font-normal sm:text-[14px] text-[10px] leading-[20px] text-gray-400">
+      <p className="font-normal text-[12px] md:text-[14px] leading-[1.6] text-gray-400">
         {content}
       </p>
     </div>

@@ -28,18 +28,18 @@ import { motion } from "framer-motion";
 const InformationCard = ({ content, title, img }) => {
   return (
     <motion.div
-      className="flex flex-col items-center text-center px-6 py-8 rounded-[15px] max-w-[300px] relative"
+      className="flex flex-col items-center text-center px-6 py-8 rounded-[15px] max-w-[500px] relative"
       whileHover={{
         scale: 1.03,
         transition: { duration: 0.3 },
       }}
     >
-      <div className="absolute left-0 top-0 h-full w-0.2 bg-gray-800 flex items-center">
+      <div className="absolute left-0 top-0 h-full w-[2px] rounded-full bg-gray-800 flex items-center">
         <motion.div
           initial={{ height: 0 }}
           animate={{ height: "10px" }}
           transition={{ duration: 1.2, delay: 0.5, ease: "easeInOut" }}
-          className="w-[0.1px] bg-white mx-auto"
+          className="w-[2px] rounded-full bg-white mx-auto"
         />
       </div>
 
@@ -49,7 +49,7 @@ const InformationCard = ({ content, title, img }) => {
         transition={{ duration: 0.6 }}
         src={img}
         alt={title}
-        className="w-[40px] h-[40px] object-contain mb-4"
+        className="w-[40px] h-[40px] object-contain my-5"
         whileHover={{
           rotate: [0, -5, 5, -5, 0],
           transition: { duration: 0.5 },

@@ -34,13 +34,13 @@ const NotesServiceCarde = ({ content, title, img }) => {
       }}
     >
       <motion.div
-        className="absolute left-0 top-0 h-full w-[0.2px] bg-gray-800 flex items-center"
+        className="absolute left-0 top-0 h-full w-[2px] rounded-full bg-gray-800 flex items-center"
         initial={{ height: 0 }}
         animate={{ height: "100%" }}
         transition={{ duration: 0.6, ease: "easeInOut" }}
       >
         <motion.div
-          className="absolute bottom-[90px] h-[10px] w-[0.1px] bg-white mx-auto"
+          className="absolute bottom-[90px] h-[10px] w-[2px] rounded-full bg-white mx-auto"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.3, delay: 0.6 }}

@@ -98,8 +98,8 @@ const ServiceCard = ({ content, title, img }) => {
       }}
     >
       {/* Border element */}
-      <div className="absolute left-0 top-0 h-full w-0.2 bg-gray-800 flex items-center">
-        <div className="h-[10px] w-[0.1px] mx-auto bg-white" />
+      <div className="absolute left-0 top-0 h-full w-[2px] rounded-full bg-gray-900 flex items-center">
+        <div className="h-[10px] w-[2px] rounded-full mx-auto bg-white" />
       </div>
 
       {/* Content */}
